@@ -1782,7 +1782,7 @@ end
 })
 
 FoolsFloor:AddToggle('InfRevive',{
-Text = "Infinite Revive",
+Text = "无限复活",
 Disabled = Floor.Value ~= "Fools" and RemotesFolder.Name ~= "Bricks" and true or false,
 Default = false
 })
@@ -1886,7 +1886,7 @@ end
 
 
 MinesFloor:AddToggle('ShowPath',{
-Text = "显示 Seek 桥梁",
+Text = "显示路径",
 Default = false,
 Disabled = Floor.Value ~= "Mines" and true or false,
 Callback = function(Value)
