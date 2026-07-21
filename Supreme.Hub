@@ -5373,14 +5373,14 @@ end
 if Toggles.Ladder.Value then
 
 if v.Name == "Ladder" then
-AddESP(v, "Ladder",LadderColor)
+AddESP(v, "梯子",LadderColor)
 end
 
 end
 if Toggles.Fuse.Value then
 
 if v.Name == "FuseObtain" then
-AddESP(v, "Fuse",FuseColor)
+AddESP(v, "保险丝",FuseColor)
 end
 
 
@@ -5548,7 +5548,7 @@ end
 if Toggles.Books.Value then
 
 if v.Name == "LiveHintBook" then
-AddESP(v, "Library Book",BookColor)
+AddESP(v, "书",BookColor)
 
 end
 
